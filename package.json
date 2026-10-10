@@ -1,0 +1,22 @@
+{
+    "name": "buzzer",
+    "version": "1.0.0",
+    "description": "A simple buzzer app",
+    "license": "ISC",
+    "author": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.6",
+        "dotenv": "^18.0.7",
+        "express": "^5.3.0",
+        "helmet": "^8.3.0",
+        "nanoid": "^6.0.2",
+        "nodemon": "^3.1.14",
+        "socket.io": "^4.8.4"
+    }
+}
